@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="about.css">
+
+
+    <title>About skywings</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="fixed-top">
+
+        <!-- Navbar1 -->
+        <div id="headerbox" style="display: flex; ">
+            <h1 style="margin-left: 300px;"> <span class="logo"> Sky<span style="color:orangered;">W</span>ings</h1>
+
+
+        </div>
+
+        <!-- 2nd nav -->
+        <div id="headerbox2" style="display: flex; ">
+
+            <span style="display: flex; margin: auto; margin-left: 300px; ">
+                <a href="trave_website.html" class="pad" style="color: black; ">
+                    <h5> Home </h5>
+                </a>
+                <a href="about.html" class="pad" style="color: black; ">
+                    <h5> About us </h5>
+                </a>
+                <a href="services.html" class="pad" style="color: black; ">
+                    <h5> services </h5>
+                </a>
+                <a href="contact.html" class="pad" style="color: black; ">
+                    <h5> contact </h5>
+                </a>
+                <a href="Testimonials.html" class="pad" style="color: black; ">
+                    <h5> Testimonials </h5>
+                </a>
+
+
+
+
+                <nav class="navbar navbar-expand-sm ">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" id="searchbox">
+                        <button class="btn btn-success" type="submit">Search</button>&nbsp;
+
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal"
+                            style="height: 40px;  margin-left: 220px;">
+                            Sign in
+                        </button>
+
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Modal Heading</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+
+                                    <div class="modal-body">
+                                        <div class="jumbotron bg-dark text-white">
+                                            <center>
+                                                <h1> Register Form</h1>
+                                            </center>
+                                        </div>
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="name">Firstname : </label>
+                                                        <input type="text" class="form-control" id="Fname"
+                                                            placeholder="Enter First Name">
+                                                    </div>
+
+
+                                                    <div class="form-group">
+                                                        <label for="email">Email :</label>
+                                                        <input type="email" class="form-control" id="email"
+                                                            placeholder=" Enter Email">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="pwd">Password :</label>
+                                                        <input type="password" class="form-control" id="password"
+                                                            placeholder=" Enter Password">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">City :</label>
+                                                        <input type="text" class="form-control" id="city"
+                                                            placeholder=" Enter Your City">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Location :</label>
+                                                        <input type="text" class="form-control" id="location"
+                                                            placeholder=" Enter Your Location">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="number">Pancard :</label>
+                                                        <input type="number" class="form-control" id="pancard"
+                                                            placeholder=" Enter Your Pancard">
+                                                    </div>
+
+                                                    <p>already have an account? <a href="loginform.html"> sign in
+                                                        </a> </p>
+
+                                                </div>
+
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="name">lastname : </label>
+                                                        <input type="text" class="form-control" id="Lname"
+                                                            placeholder="Enter Last Name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="number">Phone No :</label>
+                                                        <input type="number" class="form-control" id="number"
+                                                            placeholder=" Enter Phone Number">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Gender :</label> <br>
+
+
+
+                                                        <input type="radio" id="male" name="fav_language" value="male">
+                                                        <label for="male" style="padding-right: 10px;"> Male</label>
+
+                                                        <input type="radio" id="female" name="fav_language"
+                                                            value="female">
+                                                        <label for="female" style="padding-right: 10px;"> Female
+                                                        </label>
+
+
+                                                        <br>
+                                                        <br>
+
+
+                                                        <div class="form-group">
+                                                            <label for="name">State :</label>
+                                                            <input type="text" class="form-control" id="state"
+                                                                placeholder=" Enter Your state">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="number">Aadhar :</label>
+                                                            <input type="number" class="form-control" id="aadhar"
+                                                                placeholder=" Enter Your Aadhar">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="number">Pincode :</label>
+                                                            <input type="number" class="form-control" id="aadhar"
+                                                                placeholder=" Enter Your Pincode">
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <a href="trave_website.html"
+                                                    class="btn btn-primary active float-right ">sumbit</a>
+                                                <br>
+                                                <br>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <a href="trave_website.html" style="color: black; margin-bottom: 8px; ">
+                                                <button type="button" class="btn btn-success">sign in</button>
+                                            </a>
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </nav>
+
+
+            </span>
+
+        </div>
+
+        <div class="line"></div>
+
+
+
+    </div>
+
+    <div class="container ">
+        <div class="jumbotron bg-dark text-white" style="margin-top: 150px; width: 1400PX; margin-left: -150px;">
+            <center>
+                <h1>Services</h1>
+            </center>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="margin-top: 80px; margin-left: -50px;">
+
+        <div class="row" style="margin-left: 120px;">
+            <!-- 1 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px; height: 600px;">
+                    <img class="card-img-top" src="consultation.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Travel Planning and Consultation</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Personalized travel itineraries<br>
+                            ->Travel advice and tips<br>
+                            ->Destination information and recommendations</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px; ">
+                    <img class="card-img-top" src="booking.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Booking Services</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Flight reservations<br>
+                            ->Hotel bookings<br>
+                            ->Car rentals
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="tourpackage.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Tour Packages</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Guided tours (city tours, cultural tours,
+                            historical tours)<br>
+                            ->Adventure tours (hiking, trekking, safari)<br>
+                            ->Family tours (family-friendly activities, accommodations)</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="custom.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Custom Itineraries</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Tailor-made travel plans based on customer
+                            preferences<br>
+                            ->Tailor-made travel plans based on customer preferences<br>
+                            ->Destination information and recommendations</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="travelinsurance.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Travel Insurance</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Comprehensive travel insurance plans<br>
+                            ->Travel advice and tips<br>
+                            ->Coverage for medical emergencies, trip cancellations, lost luggage</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="visaassistant.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Visa and Passport Assistance</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Visa application processing<br>
+                            ->Travel advice and tips<br>
+                            ->Passport renewal and issuance assistance</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="transservices.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Transportation Services</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Airport transfers<br>
+                            ->Local transportation arrangements<br>
+                            ->Private chauffeur services</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="eventplanning.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title"> Event Planning</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->Corporate travel and event planning<br>
+                            ->Destination weddings<br>
+                            ->Conferences and seminars</p>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="col-sm-4">
+                <div class="card" style="width: 500px;height: 600px;">
+                    <img class="card-img-top" src="serviceassistan.jpeg" alt="Card image" width="500px " height="350px">
+                    <div class="card-body">
+                        <h4 class="card-title">Travel Support and Assistance</h4>
+                        <p class="card-text" style="font-size: 20px;"> ->24/7 customer support<br>
+                            ->Emergency assistance<br>
+                            ->On-ground support during travel</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <div class="footer1 ">
+
+
+
+
+
+
+
+
+        <div class="container-fluid ">
+
+            <div class="row">
+
+
+                <div class="col-sm-3" style="margin-top: 20px; margin-left: 250px;">
+
+                    <div style=" font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                        <span>
+                            <img src="travellg.png" width="100px" height="80px" style="margin-top: 50px;">
+                            <h6>Thankyou for visiting our website <br>
+                                we will promise that this is the <br>
+                                one and only website which is fastest<br>
+                                safest and cheapest.</h6>
+
+
+
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-sm-2" style="margin-top: 80px; margin-left: -80px;">
+
+                    <div>
+                        <h4> About </h4>
+                        <h6> About us </h6>
+                        <h6> Features </h6>
+                        <h6> Career </h6>
+                        <h6> News </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <div>
+                        <h4> Company </h4>
+                        <h6> Our Team </h6>
+                        <h6> Patner with us </h6>
+                        <h6> FAQ's </h6>
+                        <h6> Blogs </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <div>
+                        <h4> Support </h4>
+                        <h6> Account </h6>
+                        <h6> Support center </h6>
+                        <h6> Feedback </h6>
+                        <h6> Contact us </h6>
+                        <h6> Accessibility </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-3" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <h5> Follow Us: </h5>
+                    <div style="display: flex; margin-left: 110px;margin-top: -30px;">
+                        <img src="facebook_logofn.png" width="20px" height="20px">
+                        <img src="insta_logo.webp" width="30px" height="30px"
+                            style="margin-left: 8px; margin-top: -5px;">
+                        <img src="youtube_logo.png" width="40px" height="40px" style=" margin-top: -8px;">
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div style="margin-top: 70px;">
+            <center>
+                <h5> © 2014 Skywings. All rights reserved </h5>
+            </center>
+        </div>
+
+    </div>
+
+
+</body>
+
+<script>
+    $(document).on('show.bs.modal', '.modal', function () {
+        $(this).appendTo('body');
+    });
+</script>
+
+</html>

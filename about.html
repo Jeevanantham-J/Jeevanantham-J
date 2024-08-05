@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="about.css">
+
+
+    <title>About skywings</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="fixed-top">
+
+        <!-- Navbar1 -->
+        <div id="headerbox" style="display: flex; ">
+            <h1 style="margin-left: 300px;"> <span class="logo"> Sky<span style="color:orangered;">W</span>ings</h1>
+
+
+        </div>
+
+        <!-- 2nd nav -->
+        <div id="headerbox2" style="display: flex; ">
+
+            <span style="display: flex; margin: auto; margin-left: 300px; ">
+                <a href="trave_website.html" class="pad" style="color: black; ">
+                    <h5> Home </h5>
+                </a>
+                <a href="about.html" class="pad" style="color: black; ">
+                    <h5> About us </h5>
+                </a>
+                <a href="services.html" class="pad" style="color: black; ">
+                    <h5> services </h5>
+                </a>
+                <a href="contact.html" class="pad" style="color: black; ">
+                    <h5> contact </h5>
+                </a>
+                <a href="Testimonials.html" class="pad" style="color: black; ">
+                    <h5> Testimonials </h5>
+                </a>
+
+
+
+
+                <nav class="navbar navbar-expand-sm ">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" id="searchbox">
+                        <button class="btn btn-success" type="submit">Search</button>&nbsp;
+
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal"
+                            style="height: 40px;  margin-left: 220px;">
+                            Sign in
+                        </button>
+
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Modal Heading</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+
+                                    <div class="modal-body">
+                                        <div class="jumbotron bg-dark text-white">
+                                            <center>
+                                                <h1> Register Form</h1>
+                                            </center>
+                                        </div>
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="name">Firstname : </label>
+                                                        <input type="text" class="form-control" id="Fname"
+                                                            placeholder="Enter First Name">
+                                                    </div>
+
+
+                                                    <div class="form-group">
+                                                        <label for="email">Email :</label>
+                                                        <input type="email" class="form-control" id="email"
+                                                            placeholder=" Enter Email">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="pwd">Password :</label>
+                                                        <input type="password" class="form-control" id="password"
+                                                            placeholder=" Enter Password">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">City :</label>
+                                                        <input type="text" class="form-control" id="city"
+                                                            placeholder=" Enter Your City">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Location :</label>
+                                                        <input type="text" class="form-control" id="location"
+                                                            placeholder=" Enter Your Location">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="number">Pancard :</label>
+                                                        <input type="number" class="form-control" id="pancard"
+                                                            placeholder=" Enter Your Pancard">
+                                                    </div>
+
+                                                    <p>already have an account? <a href="loginform.html"> sign in
+                                                        </a> </p>
+
+                                                </div>
+
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="name">lastname : </label>
+                                                        <input type="text" class="form-control" id="Lname"
+                                                            placeholder="Enter Last Name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="number">Phone No :</label>
+                                                        <input type="number" class="form-control" id="number"
+                                                            placeholder=" Enter Phone Number">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Gender :</label> <br>
+
+
+
+                                                        <input type="radio" id="male" name="fav_language" value="male">
+                                                        <label for="male" style="padding-right: 10px;"> Male</label>
+
+                                                        <input type="radio" id="female" name="fav_language"
+                                                            value="female">
+                                                        <label for="female" style="padding-right: 10px;"> Female
+                                                        </label>
+
+
+                                                        <br>
+                                                        <br>
+
+
+                                                        <div class="form-group">
+                                                            <label for="name">State :</label>
+                                                            <input type="text" class="form-control" id="state"
+                                                                placeholder=" Enter Your state">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="number">Aadhar :</label>
+                                                            <input type="number" class="form-control" id="aadhar"
+                                                                placeholder=" Enter Your Aadhar">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="number">Pincode :</label>
+                                                            <input type="number" class="form-control" id="aadhar"
+                                                                placeholder=" Enter Your Pincode">
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <a href="trave_website.html"
+                                                    class="btn btn-primary active float-right ">sumbit</a>
+                                                <br>
+                                                <br>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <a href="trave_website.html" style="color: black; margin-bottom: 8px; ">
+                                                <button type="button" class="btn btn-success">sign in</button>
+                                            </a>
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </nav>
+
+
+            </span>
+
+        </div>
+
+        <div class="line"></div>
+
+
+
+    </div>
+
+    <div class="container ">
+        <div class="jumbotron bg-dark text-white" style="margin-top: 150px; width: 1400PX; margin-left: -150px;">
+            <center>
+                <h1>About Us</h1>
+            </center>
+        </div>
+    </div>
+
+    <div style="margin-top: 80px;">
+        <center>
+            <h1> <span> Sky<span style="color:orangered;">W</span>ings</h1>
+            <p style="font-size: 20px;"> Our mission is to help you travel safer and faster <br>
+                with innovative technologies and reliable support.</p>
+        </center>
+    </div>
+
+    <div style="margin-left: 50px; margin-top: 80px;">
+
+    </div>
+
+
+
+
+    <div class="content" style="margin-left: 100px;">
+
+        <div class="row">
+            <div class="col-sm-6">
+
+
+                <br>
+                <img src="travellg.png" alt="Logo" width="450px" height="300px" style="margin-left: 100px;">
+
+
+
+                <br>
+
+                <br>
+                <br>
+                <br>
+
+
+                <h2 style="font-weight: bold;">Company History:</h2>
+
+                <p><b>Founding Story:</b><br> Sky Wings was established by Jeevanantham J with a vision to
+                    revolutionize the Tours and Travels Agency.
+                    <br><b>Significant Milestones:</b><br> From our first project to our latest multi-million-dollar<br>
+                    contract, discover our journey through key milestones.
+                    <br><b>Major Achievements:</b> Over the years, we have completed over 700+ projects,<br> won 250+
+                    awards, and expanded our operations nationwide.
+                </p>
+                <img src="value.png" alt="Values" width="350px" height="300px"
+                    style="margin-top: 120px; margin-left: 120px;">
+
+                <h2 style="font-weight: bold; margin-top: 60px;"> Team:</h2>
+
+                <p><b>Bios of Key Leaders:</b><br> Meet the experienced professionals leading Sky Wings,
+                    including our CEO, COO, and project managers.
+                    <br><b>Their Roles and Contributions:</b><br> Learn about their backgrounds, roles, and how
+                    their expertise drives our success.
+                </p>
+
+
+
+            </div>
+            <div class="col-sm-6">
+
+                <h2 style="font-weight: bold;">Company Overview:</h2>
+
+                <pre style="font-size: 20px; margin-top: 20px; ">
+                    Welcome to skywings!
+                    
+                    At skywings, we believe that travel is more than just visiting new places; 
+                    it's about creating unforgettable memories, experiencing diverse cultures, 
+                    and discovering the world in all its beauty. Founded in 2010 by a group of 
+                    passionate travelers, we are dedicated to providing exceptional travel
+                    experiences tailored to your unique interests and desires.
+                                    </pre>
+
+                <img src="history.avif" alt="History" width="550px" height="300px" style="margin-top: 80px;">
+
+                <br><br><br>
+
+                <h2 style="font-weight: bold; margin-top: 30px;">Company Values:</h2>
+
+                <p><b>Core Values:</b><br>Integrity, Quality, Safety, Innovation, and Sustainability.<br>
+                    <b>Commitment to Quality:</b> <br> We adhere to the highest standards to ensure every project we
+                    undertake exceeds client expectations. <br>
+                    <b>Sustainability Efforts:</b> <br> We are committed to eco-friendly practices and building a
+                    greener future.
+                </p>
+
+
+                <img src="ourteam.jpg" alt="Leader Team" width="550px" height="300px" style="margin-top: 120px;">
+
+
+
+                <img src="services.jpeg" alt="Leader Team" width="550px" height="300px"
+                    style="margin-top: 80px; display: flex; margin-left: -850px;">
+
+
+                <h2 style="font-weight: bold; margin-top: -300px;"> Services:</h2>
+                <p><b>Bios of Key Leaders:</b><br> Meet the experienced professionals leading Sky Wings,
+                    including our CEO, COO, and project managers.
+                    <br><b>Their Roles and Contributions:</b><br> Learn about their backgrounds, roles, and how
+                    their expertise drives our success.
+                </p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron jumbotron-light text-dark"
+        style="width: 800px; height: 200px;margin-left: 550px; margin-top: 200px;">
+        <h2>About Our Guide Facilites, </h2>
+
+        <h4>Guide Facilites available over 180+ countries.</h4>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container-fluid">
+
+
+
+        <div>
+
+            <div class="container-fluid"
+                style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-left: 20px;">
+                <h3>Our Team </h3>
+                <br>
+                <div class="row" style="margin-left: 20px;">
+
+                    <div class="col-sm-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="ai6.webp" alt="Avatar" style="width:300px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1 style="margin-top:30px;"> Diya </h1>
+
+
+                                </div>
+                            </div>
+                            <br>
+                            <h5> Software Engineer</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="ai1.jpeg" alt="Avatar" style="width:300px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1 style="margin-top:30px;"> Ayush </h1>
+
+
+                                </div>
+                            </div>
+                            <br>
+                            <h5> Software Engineer</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="ai3.jpeg" alt="Avatar" style="width:300px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1 style="margin-top:30px;"> Ram </h1>
+
+
+                                </div>
+                            </div>
+                            <br>
+                            <h5> Digital Marketing </h5>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="ai4.webp" alt="Avatar" style="width:300px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1 style="margin-top:30px;"> Savi </h1>
+
+
+                                </div>
+                            </div>
+                            <br>
+                            <h5> UI UX Designer</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer1 ">
+
+
+
+
+
+
+
+
+        <div class="container-fluid ">
+
+            <div class="row">
+
+
+                <div class="col-sm-3" style="margin-top: 20px; margin-left: 250px; ">
+
+                    <div style=" font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                        <span>
+                            <img src="travellg.png" width="100px" height="80px" style="margin-top: 50px;">
+                            <h6>Thankyou for visiting our website <br>
+                                we will promise that this is the <br>
+                                one and only website which is fastest<br>
+                                safest and cheapest.</h6>
+
+
+
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-sm-2" style="margin-top: 80px; margin-left: -80px;">
+
+                    <div>
+                        <h4> About </h4>
+                        <h6> About us </h6>
+                        <h6> Features </h6>
+                        <h6> Career </h6>
+                        <h6> News </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <div>
+                        <h4> Company </h4>
+                        <h6> Our Team </h6>
+                        <h6> Patner with us </h6>
+                        <h6> FAQ's </h6>
+                        <h6> Blogs </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <div>
+                        <h4> Support </h4>
+                        <h6> Account </h6>
+                        <h6> Support center </h6>
+                        <h6> Feedback </h6>
+                        <h6> Contact us </h6>
+                        <h6> Accessibility </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-3" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <h5> Follow Us: </h5>
+                    <div style="display: flex; margin-left: 110px;margin-top: -30px;">
+                        <img src="facebook_logofn.png" width="20px" height="20px">
+                        <img src="insta_logo.webp" width="30px" height="30px"
+                            style="margin-left: 8px; margin-top: -5px;">
+                        <img src="youtube_logo.png" width="40px" height="40px" style=" margin-top: -8px;">
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div style="margin-top: 70px;">
+            <center>
+                <h5> © 2014 Skywings. All rights reserved </h5>
+            </center>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+<script>
+    $(document).on('show.bs.modal', '.modal', function () {
+        $(this).appendTo('body');
+    });
+</script>
