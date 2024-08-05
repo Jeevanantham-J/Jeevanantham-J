@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SKY WINGS </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="trave_website.css">
+
+</head>
+
+
+<body style="max-width: 100%; ">
+
+
+    <!-- Navbar -->
+    <div class="fixed-top">
+
+        <!-- Navbar1 -->
+        <div id="headerbox" style="display: flex; ">
+            <h1 style="margin-left: 300px;"> <span class="logo"> Sky<span style="color:orangered;">W</span>ings</h1>
+
+
+        </div>
+
+        <!-- 2nd nav -->
+        <div id="headerbox2" style="display: flex; ">
+
+            <span style="display: flex; margin: auto; margin-left: 300px; ">
+                <a href="trave_website.html" class="pad" style="color: black; ">
+                    <h5> Home </h5>
+                </a>
+                <a href="about.html" class="pad" style="color: black; ">
+                    <h5> About us </h5>
+                </a>
+                <a href="services.html" class="pad" style="color: black; ">
+                    <h5> services </h5>
+                </a>
+                <a href="contact.html" class="pad" style="color: black; ">
+                    <h5> contact </h5>
+                </a>
+                <a href="Testimonials.html" class="pad" style="color: black; ">
+                    <h5> Testimonials </h5>
+                </a>
+
+
+
+
+                <nav class="navbar navbar-expand-sm ">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" id="searchbox">
+                        <button class="btn btn-success" type="submit">Search</button>&nbsp;
+
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModal"
+                            style="height: 40px;  margin-left: 220px;">
+                            Sign in
+                        </button>
+
+
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Modal Heading</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+
+                                    <div class="modal-body">
+                                        <div class="jumbotron bg-dark text-white">
+                                            <center>
+                                                <h1> Register Form</h1>
+                                            </center>
+                                        </div>
+                                        <div class="container">
+
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="name">Firstname : </label>
+                                                        <input type="text" class="form-control" id="Fname"
+                                                            placeholder="Enter First Name">
+                                                    </div>
+
+
+                                                    <div class="form-group">
+                                                        <label for="email">Email :</label>
+                                                        <input type="email" class="form-control" id="email"
+                                                            placeholder=" Enter Email">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="pwd">Password :</label>
+                                                        <input type="password" class="form-control" id="password"
+                                                            placeholder=" Enter Password">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">City :</label>
+                                                        <input type="text" class="form-control" id="city"
+                                                            placeholder=" Enter Your City">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Location :</label>
+                                                        <input type="text" class="form-control" id="location"
+                                                            placeholder=" Enter Your Location">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="number">Pancard :</label>
+                                                        <input type="number" class="form-control" id="pancard"
+                                                            placeholder=" Enter Your Pancard">
+                                                    </div>
+
+                                                    <p>already have an account? <a href="loginform.html"> sign in
+                                                        </a> </p>
+
+                                                </div>
+
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <label for="name">lastname : </label>
+                                                        <input type="text" class="form-control" id="Lname"
+                                                            placeholder="Enter Last Name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="number">Phone No :</label>
+                                                        <input type="number" class="form-control" id="number"
+                                                            placeholder=" Enter Phone Number">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="name">Gender :</label> <br>
+
+
+
+                                                        <input type="radio" id="male" name="fav_language" value="male">
+                                                        <label for="male" style="padding-right: 10px;"> Male</label>
+
+                                                        <input type="radio" id="female" name="fav_language"
+                                                            value="female">
+                                                        <label for="female" style="padding-right: 10px;"> Female
+                                                        </label>
+
+
+                                                        <br>
+                                                        <br>
+
+
+                                                        <div class="form-group">
+                                                            <label for="name">State :</label>
+                                                            <input type="text" class="form-control" id="state"
+                                                                placeholder=" Enter Your state">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="number">Aadhar :</label>
+                                                            <input type="number" class="form-control" id="aadhar"
+                                                                placeholder=" Enter Your Aadhar">
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label for="number">Pincode :</label>
+                                                            <input type="number" class="form-control" id="aadhar"
+                                                                placeholder=" Enter Your Pincode">
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <a href="trave_website.html"
+                                                    class="btn btn-primary active float-right ">sumbit</a>
+                                                <br>
+                                                <br>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <a href="trave_website.html" style="color: black; margin-bottom: 8px; ">
+                                                <button type="button" class="btn btn-success">sign in</button>
+                                            </a>
+                                            <button type="button" class="btn btn-danger"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </nav>
+
+
+            </span>
+
+        </div>
+
+        <div class="line"></div>
+
+
+
+    </div>
+
+
+    <div class="box2">
+
+
+
+
+        <div>
+
+            <div id="demo" class="carousel slide" data-ride="carousel" style="margin-top: 150px; ">
+
+
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="hills.jpg" alt="Hills" width="1400" height="650">
+                        <div class="carousel-caption">
+                            <h3>Hill station</h3>
+                            <p>"Escape to breathtaking hill stations
+                                with ease—plan your dream
+                                getaway on our website today!"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="desert1.jpg" alt="desert" width="1400" height="650">
+                        <div class="carousel-caption">
+                            <h3>Desert</h3>
+                            <pre style="color: white; ">"Unleash the adventure—discover the magic of the desert
+            with our seamless travel planning website!"</pre>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="beach.webp" alt="Beach" width="1400" height="650">
+                        <div class="carousel-caption">
+                            <h3 style="color: black; margin-left: -200px;">Beach</h3>
+                            <pre style="color: black; margin-left: -200px;">"Find your perfect beach 
+escape—book your sun-soaked adventure 
+    on our website now!"</pre>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+
+
+        </div>
+    </div>
+    
+
+    <div class="box3">
+        <center>
+            <h2
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Place To Visit
+            </h2>
+        </center>
+        <br>
+        <br>
+
+        <div class="container"
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <h3 style="margin-left: -60px;">Visit India</h3>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="northtemple.webp" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;">
+                    <h6 style=" margin-left: 130px;"> NAGARA TEMPLE </h6>
+                    <img src="ooty.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style=" margin-top: 25px; margin-left: -50px;">
+                    <h6 style=" margin-left: 120px;"> OOTY </h6>
+                    <img src="sri_rangam.webp" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;margin-top: 25px;">
+                    <h6 style=" margin-left: 150px;"> SRIRANGAM </h6>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <img src="rajasthan.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style="margin-top: 25px;">
+                    <h6 style=" margin-left: 120px;"> RANAKPUR TEMPLE </h6>
+                    <img src="thanjavur.jpeg" class="rounded" alt="Cinque Terre" width="400" height="500"
+                        style="margin-left:px; margin-top: 25px;">
+                    <h6 style=" margin-left: 120px;"> THANJAVUR TEMPLE </h6>
+                    <img src="taj_mahal.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style=" margin-top: 25px;">
+                    <h6 style=" margin-left: 150px;"> TAJMAHAL </h6>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <img src="rajasthan1.jpg" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;">
+                    <h6 style=" margin-left: 160px;"> JAISALMER </h6>
+                    <img src="keralam.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style=" margin-top: 25px; margin-left: 50px;">
+                    <h6 style=" margin-left: 220px;"> KERALA </h6>
+                    <img src="india_gate.jpg" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;margin-top: 25px;">
+                    <h6 style=" margin-left: 160px;"> INDIA GATE </h6>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+    </div>
+
+    <div>
+
+        <div class="container-fluid"
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <h3>Top India Tourism Experience </h3>
+            <br>
+            <div class="row" style="margin-left: 20px;">
+
+                <div class="col-sm-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="tiger.jpg" alt="Avatar" style="width:400px;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 style="margin-top:30px;"> Forest in India </h1>
+                                <p style="margin-top:30px;">Forest tourism in India offers immersive <br> experiences in
+                                    diverse ecosystems,<br> from dense mangroves to lush tropical rainforests.</p>
+
+                            </div>
+                        </div>
+                        <br>
+                        <h5> Wild Life in India</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="trekking.webp" alt="Avatar" style="width:400px;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 style="margin-top:30px;"> Trekking in India </h1>
+                                <p style="margin-top:30px;">Forest trekking in India offers<br> adventurous trails
+                                    through diverse landscapes, <br>rich in wildlife and natural beauty.</p>
+
+                            </div>
+                        </div>
+                        <br>
+                        <h5> Trekking in India</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="rafting.jpg" alt="Avatar" style="width:400px;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 style="margin-top:30px;"> Rafting in India </h1>
+                                <p style="margin-top:30px;">
+                                    Rafting in India offers exhilarating river <br>journeys through diverse and
+                                    picturesque terrains, <br>from the Himalayas to the Western Ghats.</p>
+
+                            </div>
+                        </div>
+                        <br>
+                        <h5> Rafting in India</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="popsea.jpg" alt="Avatar" style="width:400px;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1 style="margin-top:30px;"> Sea View in India </h1>
+                                <p style="margin-top:30px;">
+                                    India's sea views offer <br> breathtaking vistas of pristine beaches,<br> and
+                                    picturesque coastal landscapes from the Arabian Sea<br> to the Bay of Bengal.</p>
+
+                            </div>
+                        </div>
+                        <br>
+                        <h5> Sea View in India</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>    
+
+    <div class="box3">
+        <center>
+            <h2
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Place To Visit
+            </h2>
+        </center>
+        <br>
+        <br>
+
+        <div class="container"
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <h3 style="margin-left: -60px;">Visit India</h3>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="northtemple.webp" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;">
+                    <h6 style=" margin-left: 130px; "> NAGARA TEMPLE </h6>
+                    <img src="ooty.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style=" margin-top: 25px; margin-left: -50px;">
+                    <h6 style=" margin-left: 120px;"> OOTY </h6>
+                    <img src="sri_rangam.webp" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;margin-top: 25px;">
+                    <h6 style=" margin-left: 150px;"> SRIRANGAM </h6>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <img src="rajasthan.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style="margin-top: 25px;">
+                    <h6 style=" margin-left: 120px;"> RANAKPUR TEMPLE </h6>
+                    <img src="thanjavur.jpeg" class="rounded" alt="Cinque Terre" width="400" height="500"
+                        style="margin-left:px; margin-top: 25px;">
+                    <h6 style=" margin-left: 120px;"> THANJAVUR TEMPLE </h6>
+                    <img src="taj_mahal.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style=" margin-top: 25px;">
+                    <h6 style=" margin-left: 150px;"> TAJMAHAL </h6>
+                </div>
+
+
+                <div class="col-sm-4">
+                    <img src="rajasthan1.jpg" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;">
+                    <h6 style=" margin-left: 160px;"> JAISALMER </h6>
+                    <img src="keralam.jpg" class="rounded" alt="Cinque Terre" width="400" height="250"
+                        style=" margin-top: 25px; margin-left: 50px;">
+                    <h6 style=" margin-left: 220px;"> KERALA </h6>
+                    <img src="india_gate.jpg" class="rounded" alt="Cinque Terre" width="300" height="400"
+                        style=" margin-left: 50px;margin-top: 25px;">
+                    <h6 style=" margin-left: 160px;"> INDIA GATE </h6>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+    </div>
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div>
+        <h3
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 20px;">
+            Why Choose Us?</h3>
+        <img src="whychooseus.png" width="1910px">
+    </div>
+
+
+    <br>
+    <br>
+
+    <div class="footer1 ">
+
+
+
+
+
+
+
+
+        <div class="container-fluid ">
+
+            <div class="row">
+
+
+                <div class="col-sm-3" style="margin-top: 20px; margin-left: 250px;">
+
+                    <div style=" font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                        <span>
+                            <img src="travellg.png" width="100px" height="80px" style="margin-top: 50px;">
+                            <h6>Thankyou for visiting our website <br>
+                                we will promise that this is the <br>
+                                one and only website which is fastest<br>
+                                safest and cheapest.</h6>
+
+
+
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-sm-2" style="margin-top: 80px; margin-left: -80px;">
+
+                    <div>
+                        <h4> About </h4>
+                        <h6> About us </h6>
+                        <h6> Features </h6>
+                        <h6> Career </h6>
+                        <h6> News </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <div>
+                        <h4> Company </h4>
+                        <h6> Our Team </h6>
+                        <h6> Patner with us </h6>
+                        <h6> FAQ's </h6>
+                        <h6> Blogs </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-2" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <div>
+                        <h4> Support </h4>
+                        <h6> Account </h6>
+                        <h6> Support center </h6>
+                        <h6> Feedback </h6>
+                        <h6> Contact us </h6>
+                        <h6> Accessibility </h6>
+                    </div>
+                </div>
+
+                <div class="col-sm-3" style="margin-top: 80px;  margin-left: -80px;">
+
+                    <h5> Follow Us: </h5>
+                    <div style="display: flex; margin-left: 110px;margin-top: -30px;">
+                        <img src="facebook_logofn.png" width="20px" height="20px">
+                        <img src="insta_logo.webp" width="30px" height="30px"
+                            style="margin-left: 8px; margin-top: -5px;">
+                        <img src="youtube_logo.png" width="40px" height="40px" style=" margin-top: -8px;">
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div style="margin-top: 70px;">
+            <center>
+                <h5> © 2014 Skywings. All rights reserved </h5>
+            </center>
+        </div>
+
+    </div>
+
+</body>
+
+<script>
+    $(document).on('show.bs.modal', '.modal', function () {
+        $(this).appendTo('body');
+    });
+</script>
+
+</html>

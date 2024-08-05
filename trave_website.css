@@ -1,0 +1,128 @@
+#headerbox {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid transparent;
+    
+}
+
+#headerbox2 {
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    background-color: white;
+    border: 1px solid transparent;
+    
+    
+    
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    color: black;
+    background-color: black;
+ 
+}
+
+.pad {
+    padding-right: 60px;
+    color: white;
+    margin: auto;
+}
+
+.logo {
+    color: black;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.box2{
+    
+    
+    width: 1400px;
+    margin-left: 250px;
+    margin-top: 60px ;
+
+}
+
+.pad2 {
+    padding-right: 1000px;
+}
+
+.box3{
+    margin-top: 30px;
+}
+
+.moveleft{
+    margin-left: 260px;
+    margin-top: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#searchbox{
+    border-radius: 20px;
+}
+
+a:hover{
+    scale: 1.1;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 400px;
+    height: 250px;
+    perspective: 700px;
+  }
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.6);
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+.flip-card-back {
+    
+    background-color: whitesmoke;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.rec1{
+  width: 350px;
+  height: 200px;
+  border:1px solid black;
+  background-color: white;
+}
+
+.footer1{
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 4px 8px 4px rgba(0,0,0,0.6);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.857);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+
+}
